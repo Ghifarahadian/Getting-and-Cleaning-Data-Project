@@ -12,3 +12,5 @@ What the script does:
 - Change 'activity' from numerical code to the activity label according to 'activity_labels
 - By using for loop, get the feature averages for every subject and activity and put the result in one data frame
 - Save the data frame as "tidy_data_average.txt"
+
+To run the script, run it at the current directory. Moving the script to another directory will cause the script to be unable to read the necessary files. If the script runs successfully, the output file will be generated at the same directory.
