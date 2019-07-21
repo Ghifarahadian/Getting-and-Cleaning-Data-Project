@@ -1,0 +1,27 @@
+'subject' and 'activity' are categorical variables. The rest are measurement variables
+All measurement variables come with mean and standard deviation measurements
+Those with (X, Y, Z) have both mean and standard deviation measurements in X, Y, and Z direction
+'t' indicates time domain, 'f' indicates frequency domain
+
+subject
+  numbers from 1 to 30. It indicates 30 individuals that have their data collected
+activity
+  consists of "STANDING", "SITTING", "LAYING", "WALKING", "WALKING_DOWNSTAIRS", "WALKING_UPSTAIRS".
+  This is the activity performed by the subject during the measurement
+tBodyAcc (X, Y, Z)
+tGravityAcc (X, Y, Z)
+tBodyAccJerk (X, Y, Z)
+tBodyGyro (X, Y, Z)
+tBodyGyroJerk (X, Y, Z)
+tBodyAccMag
+tGravityAccMag
+tBodyAccJerkMag
+tBodyGyroMag
+tBodyGyroJerkMag
+fBodyAcc (X, Y, Z)
+fBodyAccJerk (X, Y, Z)
+fBodyGyro (X, Y, Z)
+fBodyAccMag
+fBodyBodyAccJerkMag
+fBodyBodyGyroMag
+fBodyBodyGyroJerkMag
