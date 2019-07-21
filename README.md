@@ -13,4 +13,4 @@ What the script does:
 - By using for loop, get the feature averages for every subject and activity and put the result in one data frame
 - Save the data frame as "tidy_data_average.txt"
 
-To run the script, run it at the current directory. Moving the script to another directory will cause the script to be unable to read the necessary files. If the script runs successfully, the output file will be generated at the same directory.
+To run the script, first, change the current R working directory to the script directory. Then, you can run the script. Failure in doing so or moving the script to another directory will cause the script to be unable to read the necessary files. If the script runs successfully, the output file will be generated at the same directory.
